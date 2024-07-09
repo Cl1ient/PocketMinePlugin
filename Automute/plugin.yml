@@ -1,0 +1,19 @@
+author: CL1ient
+main: cl1ient\mute\Main
+version: 1.0.0
+api: 5.16.0
+name: plugintest
+
+commands:
+
+
+ automute:
+   usage: /automute
+   permission: owner.cmd
+   description: "Activer/Désactiver l'auto mute"
+
+permissions:
+  owner.cmd:
+    default: op
+
+
